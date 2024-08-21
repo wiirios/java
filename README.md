@@ -1,3 +1,2 @@
 # Java
-
-My Java Codes
+My repository containing my programs made in Java.
