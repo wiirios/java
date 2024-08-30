@@ -29,10 +29,17 @@ public class Main {
         smartphoneThird.memory = 124;
         smartphoneThird.memoryRam = 8;
 
-        String[] array = {smartphone.brand, smartphone.model};
+        String[] array = {
+                smartphone.comercialName,
+                smartphoneTwo.comercialName,
+                smartphoneThird.comercialName
+        };
 
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }
+
+        System.out.println("Choice one to buy");
+        int chooice = scanner.nextInt();
     }
 }
