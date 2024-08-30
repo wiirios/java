@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// Working
+
 public class Main {
     public static void main(String[] args) {
         Client client = new Client();
@@ -27,7 +29,10 @@ public class Main {
         smartphoneThird.memory = 124;
         smartphoneThird.memoryRam = 8;
 
-        // Working
+        String[] array = {smartphone.brand, smartphone.model};
 
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
     }
 }
