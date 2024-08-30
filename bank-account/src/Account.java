@@ -2,7 +2,7 @@ public class Account {
     String nameClient = "";
     int agency = 0;
     int numberAccount = 0;
-    int balance = 0;
+    double balance = 0;
 
     public void setName(String name) {
         nameClient = name;
@@ -17,6 +17,10 @@ public class Account {
     }
 
     public void setBalance(int newBalance) {
-        balance = newBalance;
+        balance = balance + newBalance;
+    }
+
+    public void transferBalance(int transferCash) {
+    balance = balance - transferCash;
     }
 }
