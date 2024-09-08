@@ -9,6 +9,8 @@ public class PhoneBookService {
     }
 
     public String getPerson() {
-        return person.get("William");
+                person.forEach((k, v) -> {
+            System.out.println(k + " " + v);
+        });
     }
 }
