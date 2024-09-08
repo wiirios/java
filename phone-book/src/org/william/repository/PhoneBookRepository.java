@@ -24,7 +24,7 @@ public class PhoneBookRepository{
 
     public void writeFile() throws IOException {
         try (FileWriter fileWriter = new FileWriter(String.valueOf(path))) {
-            fileWriter.write(String.valueOf(phoneBookService.getPerson()));
+            //fileWriter.write(String.valueOf(phoneBookService.getPerson()));
             System.out.println("Success");
         } catch (FileNotFoundException e) {
             System.out.println("File not found");
