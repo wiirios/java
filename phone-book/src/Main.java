@@ -14,11 +14,13 @@ public class Main {
 
         try (scanner) {
             while (!exit) {
-                System.out.println("Name:");
-                String nameOption = scanner.next();
-                System.out.println("Number:");
-                String cellphoneOption = scanner.next();
-                phoneBookService.addPerson(nameOption, cellphoneOption);
+                if (option.contains("1")) {
+                    System.out.println("Name:");
+                    String nameOption = scanner.next();
+                    System.out.println("Number:");
+                    String cellphoneOption = scanner.next();
+                    phoneBookService.addPerson(nameOption, cellphoneOption);
+                }
 
                 System.out.println("Exit? Y/N");
                 String optionExit = scanner.next().toUpperCase();
