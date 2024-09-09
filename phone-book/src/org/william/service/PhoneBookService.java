@@ -13,4 +13,8 @@ public class PhoneBookService {
             System.out.println(k + " " + v);
         });
     }
+
+    public HashMap<String, String> returnPerson() {
+        return person;
+    }
 }
