@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-class HelloWorld {
+class Stack {
     public static void main(String[] args) {
         //int[] vetor;
         //int pos = -1;
