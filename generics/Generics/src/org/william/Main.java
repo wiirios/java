@@ -17,12 +17,12 @@ import org.william.items.Guitar;
 public class Main extends JFrame implements KeyListener {
 	private static final long serialVersionUID = 1L;
 	private Inventory<Object> inventory;
-	private int WIDTH = 200, HEIGHT = 200;
-	private String title = "game?";
+	private static final int WIDTH = 200, HEIGHT = 200;
+	private static final String title = "game?";
 	
-	File guitarSound = new File("src/org/william/resources/wav/guitar.wav");
-	File bassSound = new File("src/org/william/resources/wav/bass.wav");
-	File fluteSound = new File("src/org/william/resources/wav/flute.wav");
+	private static final File guitarSound = new File("src/org/william/resources/wav/guitar.wav");
+	private static final File bassSound = new File("src/org/william/resources/wav/bass.wav");
+	private static final File fluteSound = new File("src/org/william/resources/wav/flute.wav");
 	
 	Guitar guitar = new Guitar("Waldman", guitarSound);
 	Bass bass = new Bass("Tagima", bassSound);
