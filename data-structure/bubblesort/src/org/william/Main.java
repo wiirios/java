@@ -16,7 +16,6 @@ public class Main {
 					int a = vector[i];
 					vector[i] = vector[j];
 					vector[j] = a;
-					
 				}
 			}
 		}
@@ -26,6 +25,5 @@ public class Main {
 		for (int i = 0; i < vectorLength; i++) {
 			System.out.println(vector[i]);
  		}
-		
 	}
 }
